@@ -22,13 +22,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        do{
-            player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path!))
-            scrubber.maximumValue = Float(player.duration)
-        }catch {
-            print(error)
-        }
        
+       
+    }
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if event?.subtype == UIEvent.EventSubtype.motionShake {
+            let soundArray = ["boing", "explosion","hit","knife","shoot","swish","wah","warble"]
+            let randomNumber = Int(arc4random_uniform(UInt32(soundArray.count)))
+            
+            let fileLocation = Bundle.main.path(forResource: soundArray[randomNumber], ofType: "mp3")
+            do{
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: fileLocation!))
+                      // scrubber.maximumValue = Float(player.duration)
+                player.play()
+                   }catch {
+                       print(error)
+                   }
+        }
     }
 
     @IBAction func playTrack(_ sender: UIBarButtonItem) {

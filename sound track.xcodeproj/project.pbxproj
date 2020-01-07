@@ -18,6 +18,12 @@
 		9B1BFD0423C52DC5001B3E79 /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0323C52DC5001B3E79 /* bach.mp3 */; };
 		9B1BFD0623C5312A001B3E79 /* boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0523C5312A001B3E79 /* boing.mp3 */; };
 		9B1BFD0823C538BE001B3E79 /* knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0723C538BD001B3E79 /* knife.mp3 */; };
+		9B1BFD0A23C53C9E001B3E79 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0923C53C9E001B3E79 /* explosion.mp3 */; };
+		9B1BFD0C23C53CAF001B3E79 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0B23C53CAF001B3E79 /* hit.mp3 */; };
+		9B1BFD0E23C53CBC001B3E79 /* shoot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0D23C53CBC001B3E79 /* shoot.mp3 */; };
+		9B1BFD1023C53CCA001B3E79 /* swish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0F23C53CCA001B3E79 /* swish.mp3 */; };
+		9B1BFD1223C53CDA001B3E79 /* wah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD1123C53CDA001B3E79 /* wah.mp3 */; };
+		9B1BFD1423C53CE2001B3E79 /* warble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD1323C53CE1001B3E79 /* warble.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		9B1BFD0323C52DC5001B3E79 /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
 		9B1BFD0523C5312A001B3E79 /* boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing.mp3; sourceTree = "<group>"; };
 		9B1BFD0723C538BD001B3E79 /* knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knife.mp3; sourceTree = "<group>"; };
+		9B1BFD0923C53C9E001B3E79 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		9B1BFD0B23C53CAF001B3E79 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		9B1BFD0D23C53CBC001B3E79 /* shoot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoot.mp3; sourceTree = "<group>"; };
+		9B1BFD0F23C53CCA001B3E79 /* swish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swish.mp3; sourceTree = "<group>"; };
+		9B1BFD1123C53CDA001B3E79 /* wah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wah.mp3; sourceTree = "<group>"; };
+		9B1BFD1323C53CE1001B3E79 /* warble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warble.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +123,6 @@
 				9B1BFCD623C51FC3001B3E79 /* ViewController.swift */,
 				9B1BFCD823C51FC3001B3E79 /* Main.storyboard */,
 				9B1BFCDB23C51FC5001B3E79 /* Assets.xcassets */,
-				9B1BFD0323C52DC5001B3E79 /* bach.mp3 */,
-				9B1BFD0723C538BD001B3E79 /* knife.mp3 */,
-				9B1BFD0523C5312A001B3E79 /* boing.mp3 */,
 				9B1BFCDD23C51FC5001B3E79 /* LaunchScreen.storyboard */,
 				9B1BFCE023C51FC5001B3E79 /* Info.plist */,
 			);
@@ -141,6 +150,15 @@
 		9B1BFD0223C5228D001B3E79 /* sound */ = {
 			isa = PBXGroup;
 			children = (
+				9B1BFD0723C538BD001B3E79 /* knife.mp3 */,
+				9B1BFD0323C52DC5001B3E79 /* bach.mp3 */,
+				9B1BFD0523C5312A001B3E79 /* boing.mp3 */,
+				9B1BFD0923C53C9E001B3E79 /* explosion.mp3 */,
+				9B1BFD0B23C53CAF001B3E79 /* hit.mp3 */,
+				9B1BFD1323C53CE1001B3E79 /* warble.mp3 */,
+				9B1BFD1123C53CDA001B3E79 /* wah.mp3 */,
+				9B1BFD0F23C53CCA001B3E79 /* swish.mp3 */,
+				9B1BFD0D23C53CBC001B3E79 /* shoot.mp3 */,
 			);
 			path = sound;
 			sourceTree = "<group>";
@@ -250,9 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B1BFD0423C52DC5001B3E79 /* bach.mp3 in Resources */,
+				9B1BFD1023C53CCA001B3E79 /* swish.mp3 in Resources */,
+				9B1BFD1223C53CDA001B3E79 /* wah.mp3 in Resources */,
+				9B1BFD0E23C53CBC001B3E79 /* shoot.mp3 in Resources */,
 				9B1BFCDF23C51FC5001B3E79 /* LaunchScreen.storyboard in Resources */,
+				9B1BFD1423C53CE2001B3E79 /* warble.mp3 in Resources */,
+				9B1BFD0C23C53CAF001B3E79 /* hit.mp3 in Resources */,
 				9B1BFD0623C5312A001B3E79 /* boing.mp3 in Resources */,
 				9B1BFCDC23C51FC5001B3E79 /* Assets.xcassets in Resources */,
+				9B1BFD0A23C53C9E001B3E79 /* explosion.mp3 in Resources */,
 				9B1BFD0823C538BE001B3E79 /* knife.mp3 in Resources */,
 				9B1BFCDA23C51FC3001B3E79 /* Main.storyboard in Resources */,
 			);
