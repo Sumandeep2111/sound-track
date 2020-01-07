@@ -17,6 +17,7 @@
 		9B1BFCF523C51FC5001B3E79 /* sound_trackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BFCF423C51FC5001B3E79 /* sound_trackUITests.swift */; };
 		9B1BFD0423C52DC5001B3E79 /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0323C52DC5001B3E79 /* bach.mp3 */; };
 		9B1BFD0623C5312A001B3E79 /* boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0523C5312A001B3E79 /* boing.mp3 */; };
+		9B1BFD0823C538BE001B3E79 /* knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B1BFD0723C538BD001B3E79 /* knife.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9B1BFCF623C51FC5001B3E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B1BFD0323C52DC5001B3E79 /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
 		9B1BFD0523C5312A001B3E79 /* boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing.mp3; sourceTree = "<group>"; };
+		9B1BFD0723C538BD001B3E79 /* knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knife.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				9B1BFCD823C51FC3001B3E79 /* Main.storyboard */,
 				9B1BFCDB23C51FC5001B3E79 /* Assets.xcassets */,
 				9B1BFD0323C52DC5001B3E79 /* bach.mp3 */,
+				9B1BFD0723C538BD001B3E79 /* knife.mp3 */,
 				9B1BFD0523C5312A001B3E79 /* boing.mp3 */,
 				9B1BFCDD23C51FC5001B3E79 /* LaunchScreen.storyboard */,
 				9B1BFCE023C51FC5001B3E79 /* Info.plist */,
@@ -250,6 +253,7 @@
 				9B1BFCDF23C51FC5001B3E79 /* LaunchScreen.storyboard in Resources */,
 				9B1BFD0623C5312A001B3E79 /* boing.mp3 in Resources */,
 				9B1BFCDC23C51FC5001B3E79 /* Assets.xcassets in Resources */,
+				9B1BFD0823C538BE001B3E79 /* knife.mp3 in Resources */,
 				9B1BFCDA23C51FC3001B3E79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

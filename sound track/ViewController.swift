@@ -12,7 +12,7 @@ import AVFoundation
 class ViewController: UIViewController {
 //we need an instance of avaudioplayer
     var player = AVAudioPlayer()
-    let path = Bundle.main.path(forResource: "boing", ofType: "mp3")//provide path for audio
+    let path = Bundle.main.path(forResource: "bach", ofType: "mp3")//provide path for audio
     var timer = Timer()
     
     @IBOutlet weak var volumeSlider: UISlider!
